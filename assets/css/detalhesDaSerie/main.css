@@ -1,0 +1,122 @@
+.conteudo__principal {
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/images/image\ 51\ \(1\).png);
+}
+
+.hero__imagem {
+    width: 436px;
+    height: 655px;
+}
+
+.conteudo__hero {
+    gap: 14px;
+    display: flex;
+    padding: 3% 8%;
+    justify-content: center;
+}
+
+.conteudo__titulo {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo__tiulo_serie {
+    font-size: 42px;
+}
+
+.conteudo__titulo_temporadas {
+    font-size: 16px;
+}
+
+.conteudo__classificacao {
+    gap: 20px;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    padding-bottom: 7%; 
+}
+
+.classificacao__idade {
+    border: 0.2px solid var(--color-black);
+    padding: 2px;
+}
+
+.conteudo__descricao {
+    line-height: 30px;
+    padding-bottom: 7%; 
+}
+
+.conteudo__idioma {
+    padding-bottom: 3%; 
+}
+
+.avaliacoes__pontuacao {
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 3%; 
+}
+
+.pontuacao__numeros {
+    font-size: 26px;
+}
+
+.conteudo__container__palavra_chave {
+    gap: 16px;
+    display: flex;
+    padding-bottom: 3%; 
+}
+
+.conteudo__palavra_chave {
+    width: 240px;
+    font-size: 16px;
+}
+
+.conteudo__palavras_chave {
+    gap: 10px;
+    display: flex;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+.palavras_chave__texto {
+    font-family: 'quicksand', sans-serif;
+    padding: 5px 10px;
+    background-color: var(--color-grey);
+}
+
+.conteudo__onde_assistir {
+    display: flex;
+    flex-direction: column;
+}
+
+.onde_assistir__texto {
+    padding-bottom: 5%; 
+}
+
+.onde_assistir__imagens {
+    gap: 30px;
+    display: flex;
+}
+
+.conteudo__imagens {
+    display: flex;
+    padding: 2% 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagens__titulo {
+    font-size: 28px;
+    padding-bottom: 2%; 
+}
+
+.imagens__container {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 1200px;
+}
