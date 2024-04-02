@@ -103,8 +103,8 @@
 }
 
 .conteudo__imagens {
+    padding: 3% 8%;
     display: flex;
-    padding: 2% 5%;
     align-items: center;
     flex-direction: column;
 }
@@ -119,4 +119,30 @@
     display: flex;
     flex-wrap: wrap; 
     max-width: 1200px;
+}
+
+.conteudo__elenco {
+    margin-top: 2%;
+    padding: 3% 8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elenco__texto {
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+
+.elenco {
+    gap: 40px;
+    display: flex;
+}
+
+.elenco__autores {
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
 }
